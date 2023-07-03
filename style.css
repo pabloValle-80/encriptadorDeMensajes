@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+    
+    
+}
+
+.title{
+    text-align: center;
+    margin: 1.2rem 2rem;
+}
+.container__flex{
+    
+    display: flex;
+    justify-content: space-around;
+    margin : 2rem 0 1rem 0;
+    
+    
+}
+
+.encriptarArea{
+  width: 45%;
+  background: #f3f5fc;
+  color: #0a3871;
+ font-size: 1.5rem;
+  resize: none;
+}
+
+
+
+
+
+.text-input-salida{
+  width: 45%;
+  background: #f3f5fc;
+    color: #0a3871;
+    font-size: 1.5rem;
+    resize: none;
+}
+
+.informacion{
+
+    margin: 0 .5rem 1rem 2.5rem;
+}
+.container__btn{
+    display: flex;
+    justify-content: space-evenly;
+   padding: 2rem;
+    background: #f3f5fc;
+}
+
+
+.btn {
+    height: 3rem;
+    width: 8rem;
+    font-size: .8rem;
+    border-radius: 15px;
+    background: #0a3871;
+    color: #d8dfe8;
+  }
+
+  .btn__desencriptar{
+    background: #d8dfe8;
+    color: #0a3871;
+  }
+
+  .container__btnCop{
+    display: none;
+  }
+
+  footer {
+   margin-top: 6rem;
+   padding: 1rem;
+  
+    background-color: #0a3871;
+        color: #fff;
+  }
+
+

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+    <title>Encriptador Alura</title>
+  </head>
+  <body>
+    <h1 class="title">Encriptador de Mensajes</h1>
+    <div class="container__flex">
+      <textarea
+      class="encriptarArea"
+        id="encriptarArea"
+        cols="50"
+        rows="10"
+        placeholder="Ingrese el texto aquí"
+      ></textarea>
+
+      <textarea
+        class="text-input-salida"
+        id="msg"
+        cols="50"
+        rows="10"
+        placeholder="Ningún mesaje fue encontrado aún"
+      ></textarea>
+    </div>
+
+    <div class="informacion">
+        <h4>
+          <iconify-icon icon="bi:exclamation-circle-fill"></iconify-icon>
+          Sólo letras minúsculas y sin acento
+        </h4>
+      </div>
+
+    <div class="container__btn">
+
+      <div class="container__btnEnc">
+        <button class="btn btn__encriptar" id="btn-encriptar" onclick="encriptar">
+          Encriptar
+        </button>
+        <button
+          class="btn btn__desencriptar"
+          id="btn-Desencriptar"
+          onclick="desencriptar"
+        >
+          Desencriptar
+        </button>
+      </div>
+
+      <div class="container__btnCop">
+        <button  class="btn btn__copiar" id="btnCopiar">Copiar</button>
+      </div>
+    </div>
+
+    <footer>
+        <p>&copy;Copyright 2023- Pablo Valle</p>
+      </footer>
+    <script src="encriptar.js"></script>
+  </body>
+</html>
